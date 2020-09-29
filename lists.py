@@ -1,4 +1,4 @@
-# :laptop: A list is a Collection which is  ordered and changable.:smile: Allows duplicate members
+# A list is a Collection which is  ordered and changable. Allows duplicate members
 # Create List
 numbers = [1,3,2,4,5]
 fruits = ['Apples','Oranges','Grapes', 'Pears']
