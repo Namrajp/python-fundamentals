@@ -10,3 +10,14 @@ Strings are used for text
 Lists are collection of values of same or different types. :hammmer:
 ## Tuples :fire:
 Tuples are collection of unique values. :pray:
+
+## Dictionary :blue_book:
+Simlar to objects in Js.
+
+## Conditionals :kiss:
+Conditional is used to provide logic :brain: to programs 
+if: elif: else:
+
+## Loop 
+for in :
+## Modules
