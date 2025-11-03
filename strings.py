@@ -25,7 +25,7 @@ print(s.replace('world','everyone'))
 
 sub = 'h'
 print(s.count(sub))
-
+print(s.count('l')
 # Split into a list
 print(s.split())
 
