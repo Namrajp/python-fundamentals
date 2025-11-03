@@ -6,6 +6,7 @@ age = 37
 
 # Arguments by Position
 #print('Hello, my name is {name} and I am {age}'.format(name=name, age=age) )
+print('My name is %s and I am %d years old.' % (name, age))
 
 # F-Strings  (3.6+) 
 print(f'Hello, my name is {name} and I am {age}')
