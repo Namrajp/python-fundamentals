@@ -1,12 +1,17 @@
+from sys import argv
+
 def main():
-	name = input("What's your name? ")
-	hello(name)
+	if ((len(argv)) == 2):
+		hello(argv[1])
+	else:
+		print("invalid number of arguments.")
 
 
 def hello(s):
 	print(f"hello, {s}")
 
 
-main()
+if __name__ == "__main__":
+	main()
 
 
