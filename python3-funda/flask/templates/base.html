@@ -3,8 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='styles.css') }}"
+    />
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
   </head>
   <body>
+    <h1 style="color: orange">The Heading content is coloured.</h1>
     {% block content %} {% endblock %}
     <p>The paragraph in one line.</p>
   </body>
