@@ -1,7 +1,17 @@
 {% extends "base.html" %} {% block content %}
 <form action="/data">
-  <input type="text" name="first" />
-  <input type="text" name="last" />
-  <input type="submit" value="Submit Form" />
+  <p>
+    <label for="fname">Firstname</label>
+    <input type="text" name="first" />
+  </p>
+
+  <p>
+    <label for="lname">Lastname</label>
+    <input type="text" name="last" />
+  </p>
+
+  <p>
+    <input type="submit" value="Submit Form" />
+  </p>
 </form>
 {% endblock %}
