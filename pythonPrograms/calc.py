@@ -3,4 +3,4 @@ y = float(input("What's y? "))
 
 z = x/y
 
-print(f"{z:.2f}")
+print(f"division of x and y is: {z:.2f}")
